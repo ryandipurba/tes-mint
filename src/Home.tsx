@@ -819,7 +819,7 @@ const Home = (props: HomeProps) => {
               <div className="footer-basic mt-3">
                 <footer>
                   <div className="social">
-                    <a href="discord.gg/aKdeNh5eNU">
+                    <a href="https://discord.com/invite/aKdeNh5eNU">
                       <i className="fab fa-discord"></i>
                     </a>
                     <a href="https://lafuska.com/">
