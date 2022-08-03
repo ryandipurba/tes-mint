@@ -20,20 +20,16 @@ code {
   right: 0%;
   bottom: 0%;
   z-index: -12;
-  background-image: radial-gradient(
-      circle farthest-corner at 50% 0%,
-      rgba(223, 20, 236, 0.5),
-      #7d19a8 57%,
-      #32aee8
-    ),
-    url("images/bg.jpg");
+  background-image: url("images/bg.png");
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  /* background-size: auto, cover; */
+  background-size: cover, auto;
 }
 
 .footer-basic {
   /* padding: 40px 0; */
   color: #000000;
+  flex: none;
 }
 
 .footer-basic ul {
@@ -88,4 +84,56 @@ code {
   font-size: 13px;
   color: #aaa;
   margin-bottom: 0;
+}
+
+.transparant {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.text-black {
+  color: black;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: red !important;
+}
+
+/* .makeStyles-root-1 .MuiDialogContent-root .MuiList-root {
+  background: red !important;
+} */
+
+/* .MuiButtonBase-root {
+  background-color: red !important;
+} */
+
+/* .MuiButton-root {
+  background-color: red !important;
+}
+
+.MuiButton-root:hover {
+  background-color: red !important;
+} */
+
+.makeStyles-root-1 .MuiDialogContent-root .MuiListItem-root .MuiButton-root {
+  padding: 20px 24px !important;
+}
+
+/* .masthead {
+  position: relative !important;
+}
+
+@media screen and (min-width: 1500px) {
+  .masthead {
+    margin-top: 150px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .masthead {
+    margin-top: 150px !important;
+  }
+} */
+
+.makeStyles-root-1 .MuiDialog-paper {
+  min-width: 400px !important;
 }
